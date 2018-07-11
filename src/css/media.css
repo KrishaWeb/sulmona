@@ -1,0 +1,224 @@
+/*==============================================================
+	Media query Start
+==============================================================*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+	.menu nav ul li{margin: 0 23px;}
+}
+@supports (-ms-ime-align:auto) {
+	.menu nav ul li{margin: 0 23px;}
+}
+@media only screen and (max-width: 1600px){
+	.menu nav ul li a{letter-spacing: 0.130em;}
+}
+
+@media only screen and (max-width: 1500px){
+	.menu nav ul li a{font-size: 23px; letter-spacing: 0.110em;}
+	.bg-photo{background-position: center center !important;}
+}
+
+@media only screen and (max-width: 1400px){
+	.menu nav ul li a{font-size: 22px; letter-spacing: 0.1em;}
+	.header-top .logo{/*padding-left: 40px;*/}
+	.our-menu-page .title-box{padding: 63px 20px 60px;}
+	.hours-info .right{padding-left: 20px;}
+	.hours-info .left ul li{font-size: 16px;}
+}
+
+@media only screen and (max-width: 1360px){
+	.menu{padding-top: 4px; padding-bottom: 0px;}
+	.menu nav{display: none;}
+	.responsive-logo{display: block; width: 220px; height: 80px; top: 16px;}
+	.header-top{float: right; max-width: 77%; padding-top: 42px;}
+	.header-top .left{width: auto;}
+	.header-top .right{width: auto; float: left; padding-left: 25px;}
+	.header-top .reservations{padding-right: 25px;}
+	.header-top .logo{display: none;}
+	.menu-icon{display: block; margin-left: 15px; float: right;}
+	.header-top .social-icon{display: none;}
+	.header-top .right .contact-info{display: none;}
+}
+
+@media only screen and (max-width: 1300px){
+	.banner-nav nav ul li{margin: 0 11px;}
+	.our-menu-title .our-menu-title-name{font-size: 84px; line-height: 140px; letter-spacing: 0.1em;}
+	.hours-info .left{float: none; width: 100%; padding-bottom: 30px;}
+	.hours-info .right{float: none; width: 100%; padding-left: 0;}
+}
+
+@media only screen and (max-width: 1280px){
+	.content-block{padding-left: 40px;}
+	.content-block.number-left{padding-right: 40px;}
+	h2{font-size: 52px; line-height: 52px;}
+	h4{font-size: 22px; line-height: 30px;}
+	.view-menu-btn a{font-size: 26px;}
+	.fancybox-nav.fancybox-next{right: 10px;}
+	.fancybox-nav.fancybox-prev{left: 10px;}
+	.sulmona-welcome-text{padding-left: 60px;}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px){
+	.ginput_recaptcha{
+		-webkit-transform: scale(.7);
+		-moz-transform: scale(.7);
+		-o-transform: scale(.7);
+		-ms-transform: scale(.7);
+		transform: scale(.7);
+		-webkit-transform-origin: 0% 50%;
+		-moz-transform-origin: 0% 50%;
+		-o-transform-origin: 0% 50%;
+		-ms-transform-origin: 0% 50%;
+		transform-origin: 0% 50%;
+	}
+}
+
+@media only screen and (max-width: 1200px){
+	/*.header-top .left{width: 70%; padding-top: 7px;}
+	.header-top .right{width: 30%;}*/
+	.header-top .right .contact-info{display: none;}
+	.content-block{margin-top: 10px;}
+	.menu-list-dropdown a{font-size: 27px; padding: 16px 30px 21px;}
+	.captcha{}
+	.contact-form .gform_wrapper.gform_validation_error .gform_body ul li.gfield.captcha.gfield_error:not(.gf_left_half):not(.gf_right_half) {max-width: 100% !important;}
+	.sulmona-welcome-text{padding-left: 60px;}
+}
+
+@media only screen and (max-width: 1100px){
+	.banner-nav nav ul li a{font-size: 19px;}
+	h2{font-size: 42px; line-height: 42px;}
+	h4{font-size: 20px; line-height: 27px;}
+	.sulmona-welcome-text{font-size: 16px; line-height: 26px;}
+	.gallery-page .title-box{padding: 63px 30px 60px;}
+	.gallery-page .title-box-arrow{left: 30px;}
+	.header-top .left .contact-info ul li{margin-right: 15px; font-size: 15px;}
+	.header-top .right{padding-left: 4px;}
+	.header-top .reservations{padding-right: 4px;}
+}
+
+@media only screen and (max-width: 1024px){
+	.header-top .left{}
+	.header-top .right{padding-left: 8px;}
+	.contact-info ul li{font-size: 14px;}
+	.responsive-logo{width: 200px; height: 73px; top: 10px;}
+	.header-top .reservations{padding-right: 23px;}
+	.header-wrap{height: 100px;}
+	.header-wrap.fixed-header{height: 100px;}
+	.header-wrap header{height: 100px;}
+	.inner-banner{padding-top: 20px;}
+	.header-top{padding-top: 34px;}
+	.sulmona-welcome-text{padding-left: 0;}
+	.content-block.expertly{padding-left: 0;}
+	.content-block.number-left{padding-right: 0; padding-left: 80px;}
+	.img-center{display: block;	margin: 0 auto;}
+	.our-menu-title .our-menu-title-name{font-size: 50px; line-height: 80px;}
+	.food-price{ width: 140px; height: 140px; font-size: 34px; line-height: 34px;}
+	.food-price span{font-size: 44px;}
+	.our-menu-food ul li .food-name{font-size: 38px; line-height: 48px;}
+	.gallery-page.expertly-handcrafted ul li.small{width: 50%;}
+	.gallery-page.expertly-handcrafted ul li.big{width: 100%;}
+	.content-block .number-text .number{margin-bottom: 10px;}
+	.content-block .number-text .vertical-text div{font-size: 13px;}
+	.advertise-video-box .view-menu-btn a{padding-left: 20px; padding-right: 20px;}
+	.view-menu-btn a .icon{line-height: 27px;}
+	.gallery-masonry .bg-photo{background-position: center center !important;}
+	#cboxPrevious{left: 10px; width: 52px; height: 52px; margin-top: -26px;}
+	#cboxNext{right: 10px; width: 52px; height: 52px; margin-top: -26px;}
+	.menu-icon{margin-left: 0;}
+	.gform_confirmation_message{font-size: 16px;}
+}
+@media only screen and (max-width: 1000px){
+	.header-top .left{display: none;}
+	.header-top .reservations{display: none;}
+}
+@media only screen and (max-width: 991px){
+	.banner-nav nav ul li a{font-size: 15px;}
+	.footer-wrap .banner-nav nav ul li a{font-size: 16px;}
+	.bg-photo{background-position: center center !important;}
+	.hours-info{padding-top: 40px; padding-left: 130px;}
+	.hours-info .left{float: left; width: 50%; padding-bottom: 30px;}
+	.hours-info .right{float: right; width: 50%; padding-left: 20px;}
+	.content-block.expertly{margin-top: 0;}
+}
+@media only screen and (max-width: 767px){
+	.banner-nav{display: none;}
+	.main-banner{height: auto; padding-top: 0px;}
+	.contact-info{padding-top: 15px;}
+	.down-arrow{padding-top: 25px; padding-bottom: 27px;}
+	.sulmona-welcome-wrap{padding: 40px 0 60px;}
+	h2{font-size: 35px; line-height: 35px;}
+	.content-block p{font-size: 16px; line-height: 26px;}
+	.view-menu-btn a{font-size: 20px; padding: 10px 30px 12px;}
+	.view-menu-btn a .icon{line-height: 13px;}
+	.content-block{padding-left: 0;}
+	.content-block.expertly{margin-top: 0;}
+	.footer-wrap{padding: 22px 0 17px;}
+	.fancybox-close{top: 10px; right: 10px;}
+	.inner-banner{margin-bottom: 40px;}
+	.inner-banner .inner-banner-box{height: auto; background: none !important;}
+	.inner-banner .inner-banner-box > .bg_img{display: block !important;}
+	.inner-banner .title-box{position: relative; left: 0; bottom: inherit;}
+	.title-box{max-width: 100%; min-height: auto; padding: 63px 30px 60px;}
+	.title-box-arrow{left: 30px;}
+	.fancybox-nav{width: 42px; height: 42px; margin-top: -21px;}
+	.fancybox-nav span{line-height: 24px; width: 20px; height: 24px; margin-top: -13px;  font-size: 14px; margin-right: -10px;}
+	.bg-photo{height: 380px;}
+	.content-block-social{padding-top: 22px;}
+	.content-block-social ul li{font-size: 16px;}
+	.content-block-social ul li a span{margin-right: 8px;}
+	.our-menu-page .expertly-handcrafted ul li{display: none;}
+	.our-menu-page .expertly-handcrafted ul li:first-child{display: block;}
+	.our-menu-page .menu-list-dropdown ul li{display: block;}
+	.our-menu-title{padding-bottom: 40px;}
+	.our-menu-title .our-menu-title-logo-left{float: none; width: 100%;}
+	.our-menu-title .our-menu-title-name{width: 100%; border-left: 0; border-right: 0; float: none;}
+	.our-menu-title .our-menu-title-logo-right{float: none; width: 100%;}
+	.our-menu-list-box h2{padding: 21px 20px 21px;}
+	.our-menu-list{padding: 21px 20px;}
+	.our-menu-list li .left{width: calc(100% - 50px);}
+	.our-menu-list li .right{width: 50px;}
+	.our-menu-food{padding: 36px 20px 21px;}
+	.food-price{margin-top: 30px;}
+	.add-ons-img{margin-top: 30px;}
+	.add-ons-box{padding: 21px 20px 14px;}
+	.add-ons-box ul{margin: 0;}
+	.add-ons-box ul li{margin: 0 0 35px; width: 100%;}
+	.note{padding: 36px 20px 0;}
+	.contact-first-section .content-block.number-left{padding-left: 80px; padding-right: 0;}
+	.contact-form .gform_footer .gform_button{font-size: 26px !important; width: 180px !important; height: 70px;}
+	.contact-form .gform_wrapper ul.gform_fields li.gfield{float: none;}
+	.hours-info .left{float: none; width: 100%; padding-bottom: 30px;}
+	.hours-info .right{float: none; width: 100%; padding-left: 0px;}
+	.hours-info{padding-left: 0;}
+	.google-map-api{height: 320px;}
+	.gallery-page.expertly-handcrafted ul li.small{width: 100%;}
+	.our-menu-title .our-menu-title-logo-left{text-align: center;}
+	.our-menu-title .our-menu-title-logo-right{text-align: center;}
+	.content-block .number-text .number{margin-bottom: 10px;}
+	.content-block .number-text .vertical-text div{font-size: 14px;}
+	.add-ons-img{margin-top: 0;}
+	.contact-form .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half) {max-width: 100% !important;}
+	.contact-form .gform_wrapper ul.gform_fields li.gfield.gfield_error+li.gfield.gfield_error{margin-top: 0;}
+	.we-look-forward-wrap .content-block{min-height: 300px;}
+}
+@media only screen and (min-width: 768px){
+	.contact-form .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half) {max-width: 50% !important;}
+	.contact-form .gform_wrapper ul.gform_fields li.gfield.gfield_error+li.gfield.gfield_error{margin-top: 0;}
+}
+@media only screen and (max-width: 480px){
+	.ginput_recaptcha{
+		-webkit-transform: scale(.7);
+		-moz-transform: scale(.7);
+		-o-transform: scale(.7);
+		-ms-transform: scale(.7);
+		transform: scale(.7);
+		-webkit-transform-origin: 0% 50%;
+		-moz-transform-origin: 0% 50%;
+		-o-transform-origin: 0% 50%;
+		-ms-transform-origin: 0% 50%;
+		transform-origin: 0% 50%;
+	}
+	.gform_wrapper .gform_footer{padding-top: 0 !important;}
+	.contact-form .gform_wrapper ul.gform_fields li.gfield.pull-right{float: none !important;}
+}
+/*==============================================================
+	Media query End
+==============================================================*/
